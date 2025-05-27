@@ -1,5 +1,5 @@
 # 💫 About Me:
-- 👋 Hi, I’m @HsHs-dev<br>- 💻 I'm an 𝑨𝒖𝒕𝒐𝒅𝒊𝒅𝒂𝒄𝒕 Computer Scientist.<br>- 🔥 [OSSU based Learning](https://github.com/ossu/computer-science).<br>- 🔭 I’m currently working on: Introduction To Computer System Course.<br>- 👯 I’m looking to collaborate on: Java/C projects.<br>- 🌱 I’m currently learning: C lang + Computer Systems<br>- ⚡ Fun fact: 𝘬𝘪𝘯𝘥𝘢 𝘩𝘢𝘷𝘦 𝘢 𝘓𝘦𝘢𝘳𝘯𝘪𝘯𝘨 𝘢𝘥𝘥𝘪𝘤𝘵𝘪𝘰𝘯<br>
+- 👋 Hi, I’m @HsHs-dev<br>- 💻 I'm an 𝑨𝒖𝒕𝒐𝒅𝒊𝒅𝒂𝒄𝒕 Computer Scientist.<br>- 🔥 [OSSU based Learning](https://github.com/ossu/computer-science).<br>- 🔭 I’m currently working on: Introduction To Computer System Course.<br>- 👯 I’m looking to collaborate on: Java/C projects.<br>- 🌱 I’m currently learning: Software Engineering + Data Structures and Algorithms<br>- ⚡ Fun fact: 𝘬𝘪𝘯𝘥𝘢 𝘩𝘢𝘷𝘦 𝘢 𝘓𝘦𝘢𝘳𝘯𝘪𝘯𝘨 𝘢𝘥𝘥𝘪𝘤𝘵𝘪𝘰𝘯<br>
 
 
 ## 🌐 Socials:
