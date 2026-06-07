@@ -91,8 +91,12 @@ Phase 4 — ML Systems + Clinical AI      (endgame)
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=HsHs-dev&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" height="150"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HsHs-dev&theme=transparent&hide_border=true&layout=compact" height="150"/>
+<img src="https://streak-stats.demolab.com/?user=HsHs-dev&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&stroke=00000000" alt="GitHub Streak" height="180"/>
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=HsHs-dev&theme=transparent" height="150"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=HsHs-dev&theme=transparent" height="150"/>
 
 </div>
 
