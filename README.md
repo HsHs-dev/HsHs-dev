@@ -18,7 +18,11 @@
 
 </div>
 
-[![wakatime](https://wakatime.com/badge/user/54bc6ffd-9130-45ef-827b-7a6bc759026f.svg)](https://wakatime.com/@54bc6ffd-9130-45ef-827b-7a6bc759026f)
+<div align="center">
+  
+  [![wakatime](https://wakatime.com/badge/user/54bc6ffd-9130-45ef-827b-7a6bc759026f.svg)](https://wakatime.com/@54bc6ffd-9130-45ef-827b-7a6bc759026f)
+  
+</div>
 
 ---
 
