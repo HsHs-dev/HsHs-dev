@@ -53,19 +53,14 @@ security:   pwn.college — 300+ challenges solved
 |---|---|---|---|
 | 🎮 | **[Memory Sequence](https://hshs-dev.github.io/react-memory-game/)** | Multi-route Human Benchmark memory game with leaderboard | React 19 · 99+ Lighthouse · < 130 KB gzipped |
 | 🍅 | **[Brutal Tomato](https://brutal-tomato.netlify.app/)** | Neobrutalist Pomodoro timer with theme tokens | React 19 · Tailwind v4 · < 80 KB gzipped |
+| 🖼️ | **[Frontend Mentor Gallery](https://hshs-dev.github.io/frontend-mentors-challenges-gallery/)** — 10 responsive solutions from design specs, all scoring 99+ in Lighthouse. |
 | 🌐 | **[x86-64 Web Server](https://github.com/HsHs-dev/x86-64-webserver)** | Concurrent HTTP server on raw Linux syscalls, forking per connection | x86-64 ASM · < 5 KB binary |
 | 🔧 | **[Gitlet](https://github.com/HsHs-dev/UCB-CS61B/tree/main/proj2/gitlet)** | Full version-control system — commits, branches, merge, remote | Java · SHA-1 blobs · content-addressable storage |
 | 🧠 | **[ANN in Assembly](https://github.com/HsHs-dev/RISCV-ANN)** | Neural network for digit classification — no libraries, raw assembly | RISC-V ASM |
 | ⚙️ | **RISC-V Pipeline CPU** | Two-stage pipelined CPU with hazard detection | RISC-V ASM |
 | 🧰 | **Neovim Config** | 0.12-compliant IDE setup — LSP, DAP, Java, C/C++, web, Lua | Lua |
 
-<details>
-<summary><b>More frontend work</b> (click to expand)</summary>
-
-- **[Frontend Mentor Gallery](https://hshs-dev.github.io/frontend-mentors-challenges-gallery/)** — 10 responsive solutions from design specs, all scoring 99+ in Lighthouse.
-- **Gittel** — Git-like system in Java with 13 commands, built during UCB CS 61B.
-
-</details>
+- 
 
 ---
 
