@@ -153,7 +153,7 @@ A selection of applications, systems, and experiments I've built while learning 
   <a href="https://hshs-dev.github.io/cs2day/">
     <img src="./assets/contact-cs2day.svg" width="246" alt="Read CS2Day blog">
   </a>
-  <a href="https://linkedin.com/in/hshs-dev">
+  <a href="https://www.linkedin.com/in/hshsdev/">
     <img src="./assets/contact-linkedin.svg" width="246" alt="Connect on LinkedIn">
   </a>
   <a href="https://x.com/Hshs_dev">
