@@ -1,21 +1,65 @@
+
 <h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
 
 <p align="center">
   <a href="https://github.com/HsHs-dev">
-    <img alt="Animated introduction: Building applications. Studying systems. Looking beneath the abstractions." src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3400&pause=1100&color=79B8FF&center=true&vCenter=true&width=780&height=40&lines=Building+applications.;Studying+systems.;Looking+beneath+the+abstractions." />
+    <img alt="Building applications. Studying systems. Looking beneath the abstractions." src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3400&pause=1100&color=79B8FF&center=true&vCenter=true&width=780&height=40&lines=Building+applications.;Studying+systems.;Looking+beneath+the+abstractions." />
   </a>
 </p>
 
 <p align="center">
   <a href="#projects">Projects</a> ·
   <a href="#technologies">Technologies</a> ·
+  <a href="#on-my-workbench">Workbench</a> ·
   <a href="#github-activity">Activity</a> ·
   <a href="#elsewhere">Elsewhere</a>
 </p>
 
-I'm a self-taught computer science student and an MBBS candidate currently based in Saudi Arabia. I build applications, study computer systems, and enjoy understanding the things that feel like magic until you look beneath the abstractions.
+I'm a self-taught computer science student and an MBBS candidate based in Saudi Arabia. I build applications, study computer systems, and enjoy understanding the things that feel like magic until you look beneath the abstractions.
 
-My interests range from web development to computer architecture and operating systems. I'm also exploring where computing and medicine meet.
+My interests stretch from responsive interfaces to assembly language and computer architecture. I'm also curious about where computing and medicine meet.
+
+---
+
+## Projects <img src="./assets/git-sprout.svg" width="30" height="30" alt="" />
+
+A selection of applications, systems, and experiments I've built while learning computer science.
+
+### ⚙️ Systems & computer architecture
+
+| Project | Under the hood |
+| :--- | :--- |
+| **[x86-64 Web Server](https://github.com/HsHs-dev/x86-64-webserver)** <br> <sub>Assembly · Linux</sub> | Concurrent HTTP server using Linux syscalls directly, with `fork`-based connections and no libc. |
+| **[Gitlet](https://github.com/HsHs-dev/gitlet)** <br> <sub>Java · Data structures</sub> | Git-inspired version control with content-addressed storage, snapshots, branching, and merging. |
+| **[RISC-V Neural Network](https://github.com/HsHs-dev/RISCV-ANN)** <br> <sub>RISC-V Assembly</sub> | MNIST digit classifier implementing matrix operations, ReLU, and argmax with pretrained weights. |
+| **[RISC-V CPU](https://github.com/HsHs-dev/UCB-CS61C/tree/main/Project/proj3)** <br> <sub>Logisim · Digital logic</sub> | In-progress processor featuring an ALU, register file, immediate generation, and initial pipelining. |
+| **[Hack Assembler & VM Translator](https://github.com/HsHs-dev/From-Nand-to-Tetris)** <br> <sub>Java · Nand to Tetris</sub> | An assembler and stack-based VM translator exploring how higher-level instructions reach the machine. |
+| **[UART with termios](https://github.com/HsHs-dev/riscv-uart-termios)** <br> <sub>C · Linux</sub> | Serial-port communication utility with a virtual-terminal test harness. |
+
+### 🌐 Applications & full-stack development
+
+| Project | Under the hood |
+| :--- | :--- |
+| **[Memory Sequence](https://hshs-dev.github.io/react-memory-game/)** · [Source](https://github.com/HsHs-dev/react-memory-game) <br> <sub>React · Tailwind · Motion</sub> | Interactive memory game with a finite-state game loop, Web Audio effects, and an online leaderboard. |
+| **[Phonebook](https://github.com/HsHs-dev/phonebook-app)** · [Demo](https://phonebook-app-05ao.onrender.com/) <br> <sub>Node.js · Express · MongoDB</sub> | Deployed full-stack exercise featuring a REST API, document persistence, and a served frontend. |
+| **[Brutal Tomato](https://brutal-tomato.netlify.app/)** · [Source](https://github.com/HsHs-dev/brutal-tomato) <br> <sub>React · Tailwind</sub> | Neobrutalist Pomodoro interface focused on responsive design, accessibility, and visual identity. Static prototype. |
+| **[Frontend Mentor Gallery](https://hshs-dev.github.io/frontend-mentors-challenges-gallery/)** · [Source](https://github.com/HsHs-dev/frontend-mentors-challenges-gallery) <br> <sub>HTML · CSS · JavaScript</sub> | Collection of design-to-code challenges exploring responsive layouts and frontend fundamentals. |
+
+### 🛠️ Developer tools & experiments
+
+| Project | Under the hood |
+| :--- | :--- |
+| **[Pomocode](https://github.com/HsHs-dev/pomocode)** <br> <sub>JavaScript · VS Code API</sub> | Lightweight VS Code extension with status-bar timer controls, focus sessions, and break reminders. |
+| **[Neovim Configuration](https://github.com/HsHs-dev/nvim-config)** <br> <sub>Lua · Neovim</sub> | Personal development environment with LSP, debugging, and editor tooling. |
+| **[3D Projection in LÖVE2D](https://github.com/HsHs-dev/tsoding-formula)** <br> <sub>Lua · Computer graphics</sub> | Experiment with projecting and animating three-dimensional objects onto a two-dimensional screen. |
+
+<p align="center">
+  <a href="https://github.com/HsHs-dev/tsoding-formula">
+    <img src="https://raw.githubusercontent.com/HsHs-dev/tsoding-formula/main/cube.gif" width="250" alt="Animated wireframe cube rendered in Lua and LÖVE2D" />
+  </a>
+  <br>
+  <sub>A little 3D projection experiment, written in Lua.</sub>
+</p>
 
 ---
 
@@ -73,45 +117,11 @@ My interests range from web development to computer architecture and operating s
 
 ---
 
-## Projects <img src="./assets/git-sprout.svg" width="30" height="30" alt="" />
-
-### ⚙️ Systems & low-level programming
-
-- **[x86-64 Web Server](https://github.com/HsHs-dev/x86-64-webserver)** — A concurrent HTTP server written in Linux x86-64 assembly, using system calls directly.
-- **[Gitlet](https://github.com/HsHs-dev/gitlet)** — A Git-inspired version control system in Java, with content-addressed storage, commits, branching, and merging.
-- **[RISC-V Neural Network](https://github.com/HsHs-dev/RISCV-ANN)** — An MNIST digit classifier implemented in RISC-V assembly, using pretrained weights and handwritten matrix operations.
-- **[Hack Assembler & VM Translator](https://github.com/HsHs-dev/From-Nand-to-Tetris)** — Java implementations of an assembler and virtual-machine translator from *Nand to Tetris*.
-- **[RISC-V CPU](https://github.com/HsHs-dev/UCB-CS61C/tree/main/Project/proj3)** — An in-progress Logisim CPU project featuring an ALU, register file, immediate generation, and initial two-stage pipelining.
-- **[UART with termios](https://github.com/HsHs-dev/riscv-uart-termios)** — A Linux serial-port utility in C, with a virtual-terminal test harness.
-
-### 🌐 Web & developer tools
-
-- **[Memory Sequence](https://hshs-dev.github.io/react-memory-game/)** — A React memory game with a finite-state game loop, sound, and an online leaderboard. [Source](https://github.com/HsHs-dev/react-memory-game)
-- **[Brutal Tomato](https://brutal-tomato.netlify.app/)** — A responsive, neobrutalist Pomodoro UI concept built with React and Tailwind CSS (currently a static prototype). [Source](https://github.com/HsHs-dev/brutal-tomato)
-- **[Frontend Mentor Gallery](https://hshs-dev.github.io/frontend-mentors-challenges-gallery/)** — A collection of responsive, design-to-code projects in HTML, CSS, and JavaScript. [Source](https://github.com/HsHs-dev/frontend-mentors-challenges-gallery)
-- **[Pomocode](https://github.com/HsHs-dev/pomocode)** — A VS Code extension for focus sessions, break reminders, and status-bar timer controls.
-- **[Phonebook](https://github.com/HsHs-dev/phonebook-app)** — A deployed full-stack exercise with an Express REST API, MongoDB, and a served frontend. [Demo](https://phonebook-app-05ao.onrender.com/)
-
-### 🧪 Experiments & configuration
-
-- **[3D Projection in LÖVE2D](https://github.com/HsHs-dev/tsoding-formula)** — Drawing and animating 3D shapes through 2D projection in Lua, based on a graphics tutorial.
-- **[Neovim Configuration](https://github.com/HsHs-dev/nvim-config)** — My Lua-based editor configuration, including LSP, debugging, and development tools.
-
-<p align="center">
-  <a href="https://github.com/HsHs-dev/tsoding-formula" title="View the LÖVE2D graphics project">
-    <img src="https://raw.githubusercontent.com/HsHs-dev/tsoding-formula/main/cube.gif" width="270" alt="Animated 3D cube from my Lua and LÖVE2D graphics experiment">
-  </a>
-  <br>
-  <sub>3D projection in Lua · <a href="https://github.com/HsHs-dev/tsoding-formula">view source</a></sub>
-</p>
-
----
-
 ## On my workbench
 
-<img align="right" src="./assets/workbench-scene.svg" width="174" alt="Tiny animated workstation with a coding monitor, coffee, and a growing plant" />
+<img align="right" src="./assets/workbench-scene.svg" width="174" alt="Animated workstation with a coding monitor, coffee, and a plant" />
 
-- **Building:** Quoll — a cross-platform desktop application exploring the features of `yt-dlp` (early prototype).
+- **Building:** Quoll — a cross-platform desktop app exploring the features of `yt-dlp` (early prototype).
 - **Learning:** TypeScript and full-stack development through [Full Stack Open](https://github.com/HsHs-dev/Typescript-Full-Stack-Open).
 - **Exploring:** Operating systems, computer architecture, and low-level programming.
 
@@ -119,26 +129,27 @@ My interests range from web development to computer architecture and operating s
 
 ## GitHub activity <img src="./assets/pulse.svg" width="30" height="30" alt="" />
 
-<!-- These theme-aware cards are generated daily by GitHub Actions and stored in this repository. -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg" />
-    <img alt="GitHub overview: contributions, public repositories, stars, and community activity" src="./assets/overview.light.svg" width="100%" />
+    <img src="./assets/overview.light.svg" width="100%" alt="GitHub overview showing contributions, repositories, stars and community activity" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions.dark.svg" />
-    <img alt="GitHub contributions: yearly activity and contribution streaks" src="./assets/contributions.light.svg" width="100%" />
+    <img src="./assets/contributions.light.svg" width="100%" alt="GitHub contributions and activity over time" />
   </picture>
 </p>
 
-<sub>Updated daily with GitHub Actions. The charts are generated SVG files committed to this repository, not images fetched from a live statistics website.</sub>
+<sub>Statistics refreshed daily with GitHub Actions and stored directly in this repository.</sub>
 
 ---
 
 ## Elsewhere
+
+I also keep notes and share what I'm learning on [CS2Day](https://hshs-dev.github.io/cs2day/).
 
 <a href="https://hshs-dev.github.io/cs2day/"><img alt="CS2Day blog" src="https://img.shields.io/badge/CS2Day-Writing-26413D?style=flat-square&logo=githubpages&logoColor=75D8C2"></a>
 <a href="https://linkedin.com/in/hshs-dev"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-263A52?style=flat-square&logo=linkedin&logoColor=79B8FF"></a>
@@ -149,3 +160,4 @@ My interests range from web development to computer architecture and operating s
 > *“The constraints imposed in building large software systems are the limitations of our own minds”*
 >
 > — Harold Abelson
+
