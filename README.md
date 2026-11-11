@@ -1,15 +1,14 @@
-<!-- Custom SVG artwork is versioned with the profile, no remote image servers. -->
+<h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero.dark.svg" />
-    <img src="./assets/hero.light.svg" width="100%" alt="Hassan — Systems Lab. Building applications. Studying systems. Looking beneath the abstractions." />
-  </picture>
+  <a href="https://github.com/HsHs-dev">
+    <img alt="Animated introduction: Building applications. Studying systems. Looking beneath the abstractions." src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3400&pause=1100&color=79B8FF&center=true&vCenter=true&width=780&height=40&lines=Building+applications.;Studying+systems.;Looking+beneath+the+abstractions." />
+  </a>
 </p>
 
 <p align="center">
   <a href="#projects">Projects</a> ·
   <a href="#technologies">Technologies</a> ·
-  <a href="#beneath-the-abstractions">Abstractions</a> ·
   <a href="#github-activity">Activity</a> ·
   <a href="#elsewhere">Elsewhere</a>
 </p>
@@ -20,7 +19,7 @@ My interests range from web development to computer architecture and operating s
 
 ---
 
-## Technologies
+## Technologies <img src="./assets/orbit.svg" width="30" height="30" alt="" />
 
 <p>
   <strong>Systems & languages</strong><br>
@@ -74,30 +73,7 @@ My interests range from web development to computer architecture and operating s
 
 ---
 
-## Beneath the abstractions
-
-A visual map of the layers I enjoy exploring, from interfaces to digital logic. These are **separate learning projects**, not one deployed architecture.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/architecture.dark.svg" />
-    <img src="./assets/architecture.light.svg" width="100%" alt="Five layers of computing: interface, network, operating system, machine instructions and digital logic." />
-  </picture>
-</p>
-
-<p align="center">
-  <sub>
-    <a href="https://github.com/HsHs-dev/react-memory-game">Interface</a> ·
-    <a href="https://github.com/HsHs-dev/phonebook-app">HTTP & API</a> ·
-    <a href="https://github.com/HsHs-dev/x86-64-webserver">Syscalls</a> ·
-    <a href="https://github.com/HsHs-dev/RISCV-ANN">Assembly</a> ·
-    <a href="https://github.com/HsHs-dev/UCB-CS61C/tree/main/Project/proj3">CPU</a>
-  </sub>
-</p>
-
----
-
-## Projects
+## Projects <img src="./assets/git-sprout.svg" width="30" height="30" alt="" />
 
 ### ⚙️ Systems & low-level programming
 
@@ -133,6 +109,8 @@ A visual map of the layers I enjoy exploring, from interfaces to digital logic. 
 
 ## On my workbench
 
+<img align="right" src="./assets/terminal-sticker.svg" width="176" alt="Tiny terminal sticker showing a curiosity-powered build" />
+
 - **Building:** Quoll — a cross-platform desktop app for exploring the features of `yt-dlp` (early prototype).
 - **Learning:** TypeScript and full-stack development with [Full Stack Open](https://github.com/HsHs-dev/Typescript-Full-Stack-Open).
 - **Deep diving:** Operating systems, computer architecture, and low-level programming.
@@ -147,16 +125,24 @@ A visual map of the layers I enjoy exploring, from interfaces to digital logic. 
 
 ---
 
-## GitHub activity
+## GitHub activity <img src="./assets/pulse.svg" width="30" height="30" alt="" />
 
+<!-- These theme-aware cards are generated daily by GitHub Actions and stored in this repository. -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity.dark.svg" />
-    <img src="./assets/activity.light.svg" width="100%" alt="GitHub public repositories, stars, followers, recently pushed repositories, and public activity events over 28 days." />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg" />
+    <img alt="GitHub overview: contributions, public repositories, stars, and community activity" src="./assets/overview.light.svg" width="100%" />
   </picture>
 </p>
 
-<sub>Generated daily by a GitHub Action using the public GitHub API and committed to this repository. The timeline counts **public events**, not commits or the complete GitHub contribution history. The first real data refresh happens after you manually run the workflow.</sub>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions.dark.svg" />
+    <img alt="GitHub contributions: yearly activity and contribution streaks" src="./assets/contributions.light.svg" width="100%" />
+  </picture>
+</p>
+
+<sub>Updated daily with GitHub Actions. The charts are generated SVG files committed to this repository, not images fetched from a live statistics website.</sub>
 
 ---
 

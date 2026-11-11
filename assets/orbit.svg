@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" role="img" aria-label="Tiny colorful technical orbit">
+  <rect x="2" y="2" width="40" height="40" rx="11" fill="#172535" stroke="#36536C" stroke-width="1.3"/>
+  <ellipse cx="22" cy="22" rx="17" ry="7.5" fill="none" stroke="#79DDEB" stroke-width="1.4" transform="rotate(-32 22 22)"/>
+  <ellipse cx="22" cy="22" rx="17" ry="7.5" fill="none" stroke="#C4B5FD" stroke-width="1.4" transform="rotate(54 22 22)"/>
+  <circle cx="22" cy="22" r="4.8" fill="#9BDD98"/>
+  <circle cx="34.6" cy="12.4" r="2.7" fill="#F2BB71"/>
+  <circle cx="10.7" cy="18.4" r="2.5" fill="#79DDEB"/>
+</svg>

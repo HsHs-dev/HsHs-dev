@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" role="img" aria-label="Colorful little spark">
+  <path d="M22 3 26.5 16.5 40 21 26.5 25.5 22 39 17.5 25.5 4 21 17.5 16.5Z" fill="#F2BB71"/>
+  <path d="M22 8 25.3 17.7 35 21 25.3 24.3 22 34 18.7 24.3 9 21 18.7 17.7Z" fill="#FFE2A4"/>
+  <circle cx="39" cy="8" r="3" fill="#C4B5FD"/>
+  <circle cx="8" cy="36" r="2.7" fill="#79DDEB"/>
+  <circle cx="39" cy="35" r="2" fill="#9BDD98"/>
+  <path d="M7 5v7M3.5 8.5h7" stroke="#79B8FF" stroke-width="2" stroke-linecap="round"/>
+</svg>
