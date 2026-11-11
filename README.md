@@ -109,22 +109,11 @@ My interests range from web development to computer architecture and operating s
 
 ## On my workbench
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench.dark.svg" />
-    <img src="./assets/workbench.light.svg" width="660" alt="Current workbench: Quoll, TypeScript, operating systems, and most recently updated public repository" />
-  </picture>
-</p>
+<img align="right" src="./assets/workbench-scene.svg" width="174" alt="Tiny animated workstation with a coding monitor, coffee, and a growing plant" />
 
-<sub>Edit [`data/workbench.json`](./data/workbench.json) to change the manually maintained project and learning labels. GitHub Actions refreshes the public repository update automatically.</sub>
-
-<details>
-  <summary><strong>What I enjoy learning about</strong></summary>
-  <br>
-  Compiler toolchains, memory and process models, CPU architecture, networking, and the strange boundary where software starts to look like hardware.
-  <br><br>
-  I'm also interested in how computing can help us reason about problems in medicine.
-</details>
+- **Building:** Quoll — a cross-platform desktop application exploring the features of `yt-dlp` (early prototype).
+- **Learning:** TypeScript and full-stack development through [Full Stack Open](https://github.com/HsHs-dev/Typescript-Full-Stack-Open).
+- **Exploring:** Operating systems, computer architecture, and low-level programming.
 
 ---
 
