@@ -149,11 +149,19 @@ A selection of applications, systems, and experiments I've built while learning 
 
 ## Elsewhere
 
-I also keep notes and share what I'm learning on [CS2Day](https://hshs-dev.github.io/cs2day/).
-
-<a href="https://hshs-dev.github.io/cs2day/"><img alt="CS2Day blog" src="https://img.shields.io/badge/CS2Day-Writing-26413D?style=flat-square&logo=githubpages&logoColor=75D8C2"></a>
-<a href="https://linkedin.com/in/hshs-dev"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-263A52?style=flat-square&logo=linkedin&logoColor=79B8FF"></a>
-<a href="https://x.com/Hshs_dev"><img alt="X" src="https://img.shields.io/badge/X-Follow-333047?style=flat-square&logo=x&logoColor=C4B5FD"></a>
+<p align="center">
+  <a href="https://hshs-dev.github.io/cs2day/">
+    <img src="https://img.shields.io/badge/CS2Day-0D9488?style=for-the-badge&logo=githubpages&logoColor=white" alt="Visit CS2Day blog" height="42">
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/hshs-dev">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" height="42">
+  </a>
+  &nbsp;
+  <a href="https://x.com/Hshs_dev">
+    <img src="https://img.shields.io/badge/X-374151?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X" height="42">
+  </a>
+</p>
 
 ---
 
