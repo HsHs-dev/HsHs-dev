@@ -1,11 +1,10 @@
-# File: .github/workflows/profile-cards.yml
-# Generates theme-aware GitHub statistics images directly into your profile repository.
-# Source: https://github.com/seijikohara/profile-cards-action
-name: Refresh profile cards
+# Reuses the existing profile-cards generator, then renders the workbench.
+# One workflow and one commit prevents competing scheduled writes.
+name: Refresh profile cards and workbench
 
 on:
   schedule:
-    - cron: "17 3 * * *" # Daily, 03:17 UTC; schedules can be delayed by GitHub
+    - cron: "17 3 * * *" # Daily at 03:17 UTC (GitHub may delay schedules)
   workflow_dispatch:
 
 permissions:
@@ -22,7 +21,7 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
-      - name: Generate profile cards
+      - name: Generate the existing statistics cards
         uses: seijikohara/profile-cards-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -31,4 +30,24 @@ jobs:
           output-dir: assets
           themes: light,dark
           palette: blue
-          commit: true
+          commit: false
+
+      - name: Generate the small data-driven workbench card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/render_workbench.py
+
+      - name: Commit and push updated SVGs together
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/overview.*.svg assets/contributions.*.svg assets/workbench.*.svg
+          if [ -f data/last_public_push.json ]; then git add data/last_public_push.json; fi
+          if git diff --cached --quiet; then
+            echo "Nothing to update"
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh cards and workbench [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main

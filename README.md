@@ -109,11 +109,14 @@ My interests range from web development to computer architecture and operating s
 
 ## On my workbench
 
-<img align="right" src="./assets/terminal-sticker.svg" width="176" alt="Tiny terminal sticker showing a curiosity-powered build" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench.dark.svg" />
+    <img src="./assets/workbench.light.svg" width="660" alt="Current workbench: Quoll, TypeScript, operating systems, and most recently updated public repository" />
+  </picture>
+</p>
 
-- **Building:** Quoll — a cross-platform desktop app for exploring the features of `yt-dlp` (early prototype).
-- **Learning:** TypeScript and full-stack development with [Full Stack Open](https://github.com/HsHs-dev/Typescript-Full-Stack-Open).
-- **Deep diving:** Operating systems, computer architecture, and low-level programming.
+<sub>Edit [`data/workbench.json`](./data/workbench.json) to change the manually maintained project and learning labels. GitHub Actions refreshes the public repository update automatically.</sub>
 
 <details>
   <summary><strong>What I enjoy learning about</strong></summary>
