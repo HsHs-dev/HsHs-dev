@@ -1,22 +1,67 @@
+
 <h1 align="center">Hassan</h1>
 
 <p align="center">
   <em>Building applications. Studying systems. Looking beneath the abstractions.</em>
 </p>
 
-<p align="center">
-  <img alt="C" src="https://img.shields.io/badge/C-263748?style=flat-square&logo=c&logoColor=9CDCFE">
-  <img alt="RISC-V" src="https://img.shields.io/badge/RISC--V-342E45?style=flat-square&logo=riscv&logoColor=C4B5FD">
-  <img alt="Java" src="https://img.shields.io/badge/Java-3C322F?style=flat-square&logo=openjdk&logoColor=F5B895">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-263B53?style=flat-square&logo=typescript&logoColor=79B8FF">
-  <img alt="React" src="https://img.shields.io/badge/React-203D46?style=flat-square&logo=react&logoColor=79DDEB">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-283D33?style=flat-square&logo=nodedotjs&logoColor=9BDD98">
-  <img alt="Lua" src="https://img.shields.io/badge/Lua-302F48?style=flat-square&logo=lua&logoColor=B9AAFF">
-</p>
-
 I'm a self-taught computer science student and an MBBS candidate currently based in Saudi Arabia. I build applications, study computer systems, and enjoy understanding the things that feel like magic until you look beneath the abstractions.
 
 My interests range from web development to computer architecture and operating systems. I'm also exploring where computing and medicine meet.
+
+---
+
+## Technologies
+
+<p>
+  <strong>Systems & languages</strong><br>
+  <img alt="C" src="https://img.shields.io/badge/C-263748?style=flat-square&logo=c&logoColor=9CDCFE">
+  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-263748?style=flat-square&logo=cplusplus&logoColor=9CDCFE">
+  <img alt="x86-64 Assembly" src="https://img.shields.io/badge/x86--64%20Assembly-263748?style=flat-square&logoColor=9CDCFE">
+  <img alt="RISC-V" src="https://img.shields.io/badge/RISC--V-263748?style=flat-square&logo=riscv&logoColor=9CDCFE">
+  <img alt="Java" src="https://img.shields.io/badge/Java-263748?style=flat-square&logo=openjdk&logoColor=9CDCFE">
+  <img alt="Python" src="https://img.shields.io/badge/Python-263748?style=flat-square&logo=python&logoColor=9CDCFE">
+  <img alt="Lua" src="https://img.shields.io/badge/Lua-263748?style=flat-square&logo=lua&logoColor=9CDCFE">
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-263748?style=flat-square&logo=gnubash&logoColor=9CDCFE">
+  <img alt="Logisim" src="https://img.shields.io/badge/Logisim-263748?style=flat-square&logoColor=9CDCFE">
+</p>
+
+<p>
+  <strong>Web & mobile</strong><br>
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-203D46?style=flat-square&logo=html5&logoColor=79DDEB">
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-203D46?style=flat-square&logo=css&logoColor=79DDEB">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-203D46?style=flat-square&logo=javascript&logoColor=79DDEB">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-203D46?style=flat-square&logo=typescript&logoColor=79DDEB">
+  <img alt="React" src="https://img.shields.io/badge/React-203D46?style=flat-square&logo=react&logoColor=79DDEB">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-203D46?style=flat-square&logo=nextdotjs&logoColor=79DDEB">
+  <img alt="React Native" src="https://img.shields.io/badge/React%20Native-203D46?style=flat-square&logo=react&logoColor=79DDEB">
+  <img alt="Expo" src="https://img.shields.io/badge/Expo-203D46?style=flat-square&logo=expo&logoColor=79DDEB">
+  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-203D46?style=flat-square&logo=tailwindcss&logoColor=79DDEB">
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-203D46?style=flat-square&logo=vite&logoColor=79DDEB">
+  <img alt="Motion" src="https://img.shields.io/badge/Motion-203D46?style=flat-square&logoColor=79DDEB">
+</p>
+
+<p>
+  <strong>Backend & data</strong><br>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-283D33?style=flat-square&logo=nodedotjs&logoColor=9BDD98">
+  <img alt="Express" src="https://img.shields.io/badge/Express-283D33?style=flat-square&logo=express&logoColor=9BDD98">
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-283D33?style=flat-square&logo=mongodb&logoColor=9BDD98">
+  <img alt="Mongoose" src="https://img.shields.io/badge/Mongoose-283D33?style=flat-square&logo=mongoose&logoColor=9BDD98">
+  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-283D33?style=flat-square&logo=firebase&logoColor=9BDD98">
+</p>
+
+<p>
+  <strong>Tools & platforms</strong><br>
+  <img alt="Git" src="https://img.shields.io/badge/Git-342E45?style=flat-square&logo=git&logoColor=C4B5FD">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-342E45?style=flat-square&logo=githubactions&logoColor=C4B5FD">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-342E45?style=flat-square&logo=linux&logoColor=C4B5FD">
+  <img alt="Neovim" src="https://img.shields.io/badge/Neovim-342E45?style=flat-square&logo=neovim&logoColor=C4B5FD">
+  <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-342E45?style=flat-square&logo=visualstudiocode&logoColor=C4B5FD">
+  <img alt="Jest" src="https://img.shields.io/badge/Jest-342E45?style=flat-square&logo=jest&logoColor=C4B5FD">
+  <img alt="LÖVE2D" src="https://img.shields.io/badge/L%C3%96VE2D-342E45?style=flat-square&logoColor=C4B5FD">
+  <img alt="Render" src="https://img.shields.io/badge/Render-342E45?style=flat-square&logo=render&logoColor=C4B5FD">
+  <img alt="Netlify" src="https://img.shields.io/badge/Netlify-342E45?style=flat-square&logo=netlify&logoColor=C4B5FD">
+</p>
 
 ---
 
