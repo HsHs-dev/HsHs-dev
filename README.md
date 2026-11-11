@@ -1,8 +1,16 @@
-
 <h1 align="center">Hassan</h1>
 
 <p align="center">
-  <em>Building applications. Studying systems. Looking beneath the abstractions.</em>
+  <a href="https://github.com/HsHs-dev">
+    <img alt="Animated introduction: Building applications. Studying systems. Looking beneath the abstractions." src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3400&pause=1100&color=79B8FF&center=true&vCenter=true&width=780&height=40&lines=Building+applications.;Studying+systems.;Looking+beneath+the+abstractions." />
+  </a>
+</p>
+
+<p align="center">
+  <a href="#projects">Projects</a> ·
+  <a href="#technologies">Technologies</a> ·
+  <a href="#github-activity">Activity</a> ·
+  <a href="#elsewhere">Elsewhere</a>
 </p>
 
 I'm a self-taught computer science student and an MBBS candidate currently based in Saudi Arabia. I build applications, study computer systems, and enjoy understanding the things that feel like magic until you look beneath the abstractions.
@@ -99,9 +107,43 @@ My interests range from web development to computer architecture and operating s
 
 ---
 
-## Currently exploring
+## On my workbench
 
-TypeScript and full-stack development, operating systems, computer architecture, and low-level programming.
+- **Building:** Quoll — a cross-platform desktop app for exploring the features of `yt-dlp` (early prototype).
+- **Learning:** TypeScript and full-stack development with [Full Stack Open](https://github.com/HsHs-dev/Typescript-Full-Stack-Open).
+- **Deep diving:** Operating systems, computer architecture, and low-level programming.
+
+<details>
+  <summary><strong>What I enjoy learning about</strong></summary>
+  <br>
+  Compiler toolchains, memory and process models, CPU architecture, networking, and the strange boundary where software starts to look like hardware.
+  <br><br>
+  I'm also interested in how computing can help us reason about problems in medicine.
+</details>
+
+---
+
+## GitHub activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=HsHs-dev&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=79B8FF&amp;icon_color=79DDEB&amp;text_color=C9D1D9&amp;ring_color=79DDEB" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=HsHs-dev&amp;show_icons=true&amp;hide_border=true&amp;bg_color=FFFFFF&amp;title_color=2563A6&amp;icon_color=0D8796&amp;text_color=24292F&amp;ring_color=0D8796" />
+    <img alt="Live GitHub statistics" height="165" src="https://github-readme-stats.vercel.app/api?username=HsHs-dev&amp;show_icons=true&amp;hide_border=true" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HsHs-dev&amp;bg_color=0D1117&amp;color=79B8FF&amp;line=79DDEB&amp;point=C4B5FD&amp;area=true&amp;area_color=203D46&amp;hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HsHs-dev&amp;bg_color=FFFFFF&amp;color=2563A6&amp;line=0D8796&amp;point=6750A4&amp;area=true&amp;area_color=DDF3F4&amp;hide_border=true" />
+    <img alt="GitHub contribution activity graph" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=HsHs-dev" />
+  </picture>
+</p>
+
+<sub>The statistics and graph are fetched from community-hosted services and may occasionally be unavailable.</sub>
+
+---
 
 ## Elsewhere
 
