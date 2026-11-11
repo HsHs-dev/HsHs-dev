@@ -1,0 +1,45 @@
+name: Refresh Systems Lab activity
+
+on:
+  schedule:
+    - cron: "41 4 * * *" # daily 04:41 UTC (GitHub schedules can be delayed)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: systems-lab-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh public GitHub activity art
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_activity.py
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.dark.svg assets/activity.light.svg
+          if git diff --cached --quiet; then
+            echo "No activity card changes"
+          else
+            git commit -m "chore(profile): refresh Systems Lab activity [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+          fi

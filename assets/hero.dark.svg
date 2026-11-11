@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title description">
+<title id="title">Hassan — The Systems Lab</title>
+<desc id="description">An original circuit-board themed header: Hassan, building applications and exploring the systems beneath them.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0A1220"/><stop offset="1" stop-color="#152437"/></linearGradient>
+  <linearGradient id="signal" x2="1" y2="0"><stop stop-color="#73DCEE"/><stop offset=".58" stop-color="#83B6FF"/><stop offset="1" stop-color="#C5B4FF"/></linearGradient>
+  <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".9" fill="#5D8AA4" opacity=".14"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="365" rx="16"/></clipPath>
+</defs>
+<style>
+ @keyframes glow {0%,100%{opacity:.32} 50%{opacity:.8}}
+ @keyframes trace {to{stroke-dashoffset:-50}}
+ .pulse {animation:glow 3.8s ease-in-out infinite}
+ .active {stroke-dasharray:5 15; animation:trace 4.5s linear infinite}
+ @media(prefers-reduced-motion:reduce){.pulse,.active{animation:none}}
+</style>
+<g clip-path="url(#clip)">
+<rect width="1200" height="365" fill="url(#bg)"/>
+<rect width="1200" height="365" fill="url(#dots)"/>
+<g stroke="#5D8AA4" stroke-width=".5" opacity=".07"><path d="M28 0V364"/><path d="M60 0V364"/><path d="M92 0V364"/><path d="M124 0V364"/><path d="M156 0V364"/><path d="M188 0V364"/><path d="M220 0V364"/><path d="M252 0V364"/><path d="M284 0V364"/><path d="M316 0V364"/><path d="M348 0V364"/><path d="M380 0V364"/><path d="M412 0V364"/><path d="M444 0V364"/><path d="M476 0V364"/><path d="M508 0V364"/><path d="M540 0V364"/><path d="M572 0V364"/><path d="M604 0V364"/><path d="M636 0V364"/><path d="M668 0V364"/><path d="M700 0V364"/><path d="M732 0V364"/><path d="M764 0V364"/><path d="M796 0V364"/><path d="M828 0V364"/><path d="M860 0V364"/><path d="M892 0V364"/><path d="M924 0V364"/><path d="M956 0V364"/><path d="M988 0V364"/><path d="M1020 0V364"/><path d="M1052 0V364"/><path d="M1084 0V364"/><path d="M1116 0V364"/><path d="M1148 0V364"/><path d="M1180 0V364"/><path d="M0 20H1198"/><path d="M0 52H1198"/><path d="M0 84H1198"/><path d="M0 116H1198"/><path d="M0 148H1198"/><path d="M0 180H1198"/><path d="M0 212H1198"/><path d="M0 244H1198"/><path d="M0 276H1198"/><path d="M0 308H1198"/><path d="M0 340H1198"/></g>
+<path d="M0 334H1199" stroke="#2D4560"/>
+<rect x="1" y="1" width="1198" height="363" rx="15" fill="none" stroke="#2D4560" stroke-width="1.5"/>
+<!-- identification / nameplate -->
+<circle cx="49" cy="51" r="6" fill="#83E7BA" class="pulse"/>
+<text x="67" y="56" fill="#83E7BA" font-size="14" font-family="Consolas,monospace" letter-spacing="2.2">PERSONAL ENGINEERING NOTEBOOK</text>
+<text x="46" y="158" fill="#ECF7FF" font-size="94" font-weight="750" font-family="Segoe UI,Arial,sans-serif" letter-spacing="-5">Hassan<tspan fill="#73DCEE">.</tspan></text>
+<rect x="49" y="184" width="82" height="4" rx="2" fill="#73DCEE"/>
+<rect x="139" y="184" width="30" height="4" rx="2" fill="#83E7BA"/>
+<rect x="175" y="184" width="14" height="4" rx="2" fill="#C5B4FF"/>
+<text x="49" y="230" fill="#A3B7CC" font-family="Segoe UI,Arial,sans-serif" font-size="22">Building applications. Studying systems.</text>
+<text x="49" y="260" fill="#A3B7CC" font-family="Segoe UI,Arial,sans-serif" font-size="22">Looking beneath the abstractions.</text>
+<text x="48" y="311" fill="#637C97" font-family="Consolas,monospace" font-size="13" letter-spacing="1.2">SOFTWARE / SYSTEMS / THE SPACE BETWEEN</text>
+<!-- circuit cluster -->
+<path d="M775 48h65l24 16H1150" stroke="#73DCEE" stroke-width="1.7" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="64" r="3" fill="#73DCEE" opacity=".68"/><path d="M797 83h77l24 -10H1150" stroke="#83E7BA" stroke-width="1.4" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="73" r="3" fill="#83E7BA" opacity=".68"/><path d="M819 118h89l24 16H1150" stroke="#C5B4FF" stroke-width="1.4" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="134" r="3" fill="#C5B4FF" opacity=".68"/><path d="M775 153h101l24 -10H1150" stroke="#73DCEE" stroke-width="1.7" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="143" r="3" fill="#73DCEE" opacity=".68"/><path d="M797 188h65l24 16H1150" stroke="#83E7BA" stroke-width="1.4" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="204" r="3" fill="#83E7BA" opacity=".68"/><path d="M819 223h77l24 -10H1150" stroke="#C5B4FF" stroke-width="1.4" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="213" r="3" fill="#C5B4FF" opacity=".68"/><path d="M775 258h89l24 16H1150" stroke="#73DCEE" stroke-width="1.7" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="274" r="3" fill="#73DCEE" opacity=".68"/><path d="M797 293h101l24 -10H1150" stroke="#83E7BA" stroke-width="1.4" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="283" r="3" fill="#83E7BA" opacity=".68"/><path d="M819 328h65l24 16H1150" stroke="#C5B4FF" stroke-width="1.4" fill="none" opacity=".38" stroke-linejoin="round"/><circle cx="1150" cy="344" r="3" fill="#C5B4FF" opacity=".68"/>
+<path d="M685 42h15v12" stroke="#83E7BA" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="685" cy="42" r="2.5" fill="#83E7BA" opacity=".75"/>
+<path d="M715 94h22v19" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="715" cy="94" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M745 146h29v26" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="745" cy="146" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M775 198h36v12" stroke="#83E7BA" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="775" cy="198" r="2.5" fill="#83E7BA" opacity=".75"/>
+<path d="M805 250h15v19" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="805" cy="250" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M835 42h22v26" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="835" cy="42" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M865 94h29v12" stroke="#83E7BA" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="865" cy="94" r="2.5" fill="#83E7BA" opacity=".75"/>
+<path d="M895 146h36v19" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="895" cy="146" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M925 198h15v26" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="925" cy="198" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M955 250h22v12" stroke="#83E7BA" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="955" cy="250" r="2.5" fill="#83E7BA" opacity=".75"/>
+<path d="M985 42h29v19" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="985" cy="42" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M1015 94h36v26" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="1015" cy="94" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M1045 146h15v12" stroke="#83E7BA" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="1045" cy="146" r="2.5" fill="#83E7BA" opacity=".75"/>
+<path d="M1075 198h22v19" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="1075" cy="198" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M1105 250h29v26" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="1105" cy="250" r="2.5" fill="#73DCEE" opacity=".75"/>
+<path d="M1135 42h36v12" stroke="#83E7BA" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="1135" cy="42" r="2.5" fill="#83E7BA" opacity=".75"/>
+<path d="M1165 94h15v19" stroke="#73DCEE" stroke-width="1.1" opacity=".30" fill="none"/>
+<circle cx="1165" cy="94" r="2.5" fill="#73DCEE" opacity=".75"/>
+<rect x="863" y="83" width="207" height="185" rx="17" fill="#102234" stroke="#365771" stroke-width="2"/>
+<path d="M865 105h-16 M1068 105h16" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M865 123h-16 M1068 123h16" stroke="#83E7BA" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M865 141h-16 M1068 141h16" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M865 159h-16 M1068 159h16" stroke="#83E7BA" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M865 177h-16 M1068 177h16" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M865 195h-16 M1068 195h16" stroke="#83E7BA" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M865 213h-16 M1068 213h16" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M865 231h-16 M1068 231h16" stroke="#83E7BA" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M865 249h-16 M1068 249h16" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M890 84v-15 M890 266v15" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M909 84v-15 M909 266v15" stroke="#83E7BA" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M928 84v-15 M928 266v15" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M947 84v-15 M947 266v15" stroke="#83E7BA" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M966 84v-15 M966 266v15" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M985 84v-15 M985 266v15" stroke="#83E7BA" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M1004 84v-15 M1004 266v15" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M1023 84v-15 M1023 266v15" stroke="#83E7BA" stroke-width="3" stroke-linecap="round" opacity=".65"/><path d="M1042 84v-15 M1042 266v15" stroke="#73DCEE" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+<rect x="881" y="103" width="170" height="147" rx="9" fill="none" stroke="#83E7BA" stroke-width="1" opacity=".4"/>
+<path d="M908 131h112M908 216h112" stroke="#365771" opacity=".6"/>
+<text x="965" y="165" fill="#ECF7FF" text-anchor="middle" font-family="Consolas,monospace" font-size="33" font-weight="bold">H/S</text>
+<text x="965" y="190" fill="#83E7BA" text-anchor="middle" font-family="Consolas,monospace" font-size="13" letter-spacing="2">SYSTEMS LAB</text>
+<text x="965" y="235" fill="#637C97" text-anchor="middle" font-family="Consolas,monospace" font-size="12">v1.0 / curious</text>
+<path d="M840 304H1138" stroke="url(#signal)" stroke-width="2" stroke-dasharray="5 15" class="active"/>
+<text x="854" y="326" fill="#637C97" font-family="Consolas,monospace" font-size="11">SIG 0x01</text>
+<text x="1117" y="326" fill="#637C97" font-family="Consolas,monospace" font-size="11" text-anchor="end">READY</text>
+</g></svg>
