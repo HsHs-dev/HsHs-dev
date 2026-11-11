@@ -125,23 +125,22 @@ My interests range from web development to computer architecture and operating s
 
 ## GitHub activity
 
+<!-- These theme-aware cards are generated daily by GitHub Actions and stored in this repository. -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=HsHs-dev&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=79B8FF&amp;icon_color=79DDEB&amp;text_color=C9D1D9&amp;ring_color=79DDEB" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=HsHs-dev&amp;show_icons=true&amp;hide_border=true&amp;bg_color=FFFFFF&amp;title_color=2563A6&amp;icon_color=0D8796&amp;text_color=24292F&amp;ring_color=0D8796" />
-    <img alt="Live GitHub statistics" height="165" src="https://github-readme-stats.vercel.app/api?username=HsHs-dev&amp;show_icons=true&amp;hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg" />
+    <img alt="GitHub overview: contributions, public repositories, stars, and community activity" src="./assets/overview.light.svg" width="100%" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HsHs-dev&amp;bg_color=0D1117&amp;color=79B8FF&amp;line=79DDEB&amp;point=C4B5FD&amp;area=true&amp;area_color=203D46&amp;hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HsHs-dev&amp;bg_color=FFFFFF&amp;color=2563A6&amp;line=0D8796&amp;point=6750A4&amp;area=true&amp;area_color=DDF3F4&amp;hide_border=true" />
-    <img alt="GitHub contribution activity graph" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=HsHs-dev" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions.dark.svg" />
+    <img alt="GitHub contributions: yearly activity and contribution streaks" src="./assets/contributions.light.svg" width="100%" />
   </picture>
 </p>
 
-<sub>The statistics and graph are fetched from community-hosted services and may occasionally be unavailable.</sub>
+<sub>Updated daily with GitHub Actions. The charts are generated SVG files committed to this repository, not images fetched from a live statistics website.</sub>
 
 ---
 
