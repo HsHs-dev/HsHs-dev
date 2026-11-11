@@ -151,15 +151,13 @@ A selection of applications, systems, and experiments I've built while learning 
 
 <p align="center">
   <a href="https://hshs-dev.github.io/cs2day/">
-    <img src="https://img.shields.io/badge/CS2Day-0D9488?style=for-the-badge&logo=githubpages&logoColor=white" alt="Visit CS2Day blog" height="42">
+    <img src="./assets/contact-cs2day.svg" width="246" alt="Read CS2Day blog">
   </a>
-  &nbsp;
   <a href="https://linkedin.com/in/hshs-dev">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" height="42">
+    <img src="./assets/contact-linkedin.svg" width="246" alt="Connect on LinkedIn">
   </a>
-  &nbsp;
   <a href="https://x.com/Hshs_dev">
-    <img src="https://img.shields.io/badge/X-374151?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X" height="42">
+    <img src="./assets/contact-x.svg" width="246" alt="Follow on X">
   </a>
 </p>
 
