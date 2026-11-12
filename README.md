@@ -1,4 +1,3 @@
-
 <h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
 
 <p align="center">
@@ -15,7 +14,7 @@
   <a href="#elsewhere">Elsewhere</a>
 </p>
 
-I'm a self-taught computer science student and an MBBS candidate based in Saudi Arabia. I build applications, study computer systems, and enjoy understanding the things that feel like magic until you look beneath the abstractions.
+I'm a self-taught computer science student and an MBBS candidate based on Saudi Arabia. I build applications, study computer systems, and enjoy understanding the things that feel like magic until you look beneath the abstractions.
 
 My interests stretch from responsive interfaces to assembly language and computer architecture. I'm also curious about where computing and medicine meet.
 
@@ -27,31 +26,31 @@ A selection of applications, systems, and experiments I've built while learning 
 
 ### ⚙️ Systems & computer architecture
 
-| Project | Under the hood |
-| :--- | :--- |
-| **[x86-64 Web Server](https://github.com/HsHs-dev/x86-64-webserver)** <br> <sub>Assembly · Linux</sub> | Concurrent HTTP server using Linux syscalls directly, with `fork`-based connections and no libc. |
-| **[Gitlet](https://github.com/HsHs-dev/gitlet)** <br> <sub>Java · Data structures</sub> | Git-inspired version control with content-addressed storage, snapshots, branching, and merging. |
-| **[RISC-V Neural Network](https://github.com/HsHs-dev/RISCV-ANN)** <br> <sub>RISC-V Assembly</sub> | MNIST digit classifier implementing matrix operations, ReLU, and argmax with pretrained weights. |
-| **[RISC-V CPU](https://github.com/HsHs-dev/UCB-CS61C/tree/main/Project/proj3)** <br> <sub>Logisim · Digital logic</sub> | In-progress processor featuring an ALU, register file, immediate generation, and initial pipelining. |
+| Project                                                                                                                     | Under the hood                                                                                        |
+| :-------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| **[x86-64 Web Server](https://github.com/HsHs-dev/x86-64-webserver)** <br> <sub>Assembly · Linux</sub>                      | Concurrent HTTP server using Linux syscalls directly, with `fork`-based connections and no libc.      |
+| **[Gitlet](https://github.com/HsHs-dev/gitlet)** <br> <sub>Java · Data structures</sub>                                     | Git-inspired version control with content-addressed storage, snapshots, branching, and merging.       |
+| **[RISC-V Neural Network](https://github.com/HsHs-dev/RISCV-ANN)** <br> <sub>RISC-V Assembly</sub>                          | MNIST digit classifier implementing matrix operations, ReLU, and argmax with pretrained weights.      |
+| **[RISC-V CPU](https://github.com/HsHs-dev/UCB-CS61C/tree/main/Project/proj3)** <br> <sub>Logisim · Digital logic</sub>     | RISC-V processor featuring an ALU, register file, immediate generation, and initial pipelining.       |
 | **[Hack Assembler & VM Translator](https://github.com/HsHs-dev/From-Nand-to-Tetris)** <br> <sub>Java · Nand to Tetris</sub> | An assembler and stack-based VM translator exploring how higher-level instructions reach the machine. |
-| **[UART with termios](https://github.com/HsHs-dev/riscv-uart-termios)** <br> <sub>C · Linux</sub> | Serial-port communication utility with a virtual-terminal test harness. |
+| **[UART with termios](https://github.com/HsHs-dev/riscv-uart-termios)** <br> <sub>C · Linux</sub>                           | Serial-port communication utility with a virtual-terminal test harness.                               |
 
 ### 🌐 Applications & full-stack development
 
-| Project | Under the hood |
-| :--- | :--- |
-| **[Memory Sequence](https://hshs-dev.github.io/react-memory-game/)** · [Source](https://github.com/HsHs-dev/react-memory-game) <br> <sub>React · Tailwind · Motion</sub> | Interactive memory game with a finite-state game loop, Web Audio effects, and an online leaderboard. |
-| **[Phonebook](https://github.com/HsHs-dev/phonebook-app)** · [Demo](https://phonebook-app-05ao.onrender.com/) <br> <sub>Node.js · Express · MongoDB</sub> | Deployed full-stack exercise featuring a REST API, document persistence, and a served frontend. |
-| **[Brutal Tomato](https://brutal-tomato.netlify.app/)** · [Source](https://github.com/HsHs-dev/brutal-tomato) <br> <sub>React · Tailwind</sub> | Neobrutalist Pomodoro interface focused on responsive design, accessibility, and visual identity. Static prototype. |
-| **[Frontend Mentor Gallery](https://hshs-dev.github.io/frontend-mentors-challenges-gallery/)** · [Source](https://github.com/HsHs-dev/frontend-mentors-challenges-gallery) <br> <sub>HTML · CSS · JavaScript</sub> | Collection of design-to-code challenges exploring responsive layouts and frontend fundamentals. |
+| Project                                                                                                                                                                                                            | Under the hood                                                                                                      |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ |
+| **[Memory Sequence](https://hshs-dev.github.io/react-memory-game/)** · [Source](https://github.com/HsHs-dev/react-memory-game) <br> <sub>React · Tailwind · Motion</sub>                                           | Interactive memory game with a finite-state game loop, Web Audio effects, and an online leaderboard.                |
+| **[Phonebook](https://github.com/HsHs-dev/phonebook-app)** · [Demo](https://phonebook-app-05ao.onrender.com/) <br> <sub>Node.js · Express · MongoDB</sub>                                                          | Deployed full-stack exercise featuring a REST API, document persistence, and a served frontend.                     |
+| **[Brutal Tomato](https://brutal-tomato.netlify.app/)** · [Source](https://github.com/HsHs-dev/brutal-tomato) <br> <sub>React · Tailwind</sub>                                                                     | Neobrutalist Pomodoro interface focused on responsive design, accessibility, and visual identity. Static prototype. |
+| **[Frontend Mentor Gallery](https://hshs-dev.github.io/frontend-mentors-challenges-gallery/)** · [Source](https://github.com/HsHs-dev/frontend-mentors-challenges-gallery) <br> <sub>HTML · CSS · JavaScript</sub> | Collection of design-to-code challenges exploring responsive layouts and frontend fundamentals.                     |
 
 ### 🛠️ Developer tools & experiments
 
-| Project | Under the hood |
-| :--- | :--- |
-| **[Pomocode](https://github.com/HsHs-dev/pomocode)** <br> <sub>JavaScript · VS Code API</sub> | Lightweight VS Code extension with status-bar timer controls, focus sessions, and break reminders. |
-| **[Neovim Configuration](https://github.com/HsHs-dev/nvim-config)** <br> <sub>Lua · Neovim</sub> | Personal development environment with LSP, debugging, and editor tooling. |
-| **[3D Projection in LÖVE2D](https://github.com/HsHs-dev/tsoding-formula)** <br> <sub>Lua · Computer graphics</sub> | Experiment with projecting and animating three-dimensional objects onto a two-dimensional screen. |
+| Project                                                                                                            | Under the hood                                                                                     |
+| :----------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+| **[Pomocode](https://github.com/HsHs-dev/pomocode)** <br> <sub>JavaScript · VS Code API</sub>                      | Lightweight VS Code extension with status-bar timer controls, focus sessions, and break reminders. |
+| **[Neovim Configuration](https://github.com/HsHs-dev/nvim-config)** <br> <sub>Lua · Neovim</sub>                   | Personal development environment with LSP, debugging, and editor tooling.                          |
+| **[3D Projection in LÖVE2D](https://github.com/HsHs-dev/tsoding-formula)** <br> <sub>Lua · Computer graphics</sub> | Experiment with projecting and animating three-dimensional objects onto a two-dimensional screen.  |
 
 <p align="center">
   <a href="https://github.com/HsHs-dev/tsoding-formula">
@@ -163,7 +162,6 @@ A selection of applications, systems, and experiments I've built while learning 
 
 ---
 
-> *“The constraints imposed in building large software systems are the limitations of our own minds”*
+> _“The constraints imposed in building large software systems are the limitations of our own minds”_
 >
 > — Harold Abelson
-
