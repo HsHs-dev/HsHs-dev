@@ -286,8 +286,6 @@ flowchart TD
 
 ## Elsewhere
 
-## Elsewhere
-
 <p align="center">
   <a href="https://hshs-dev.github.io/cs2day/">
     <img src="./assets/contact-cs2day.svg" width="306" alt="CS2Day — Notes from the lab" />
