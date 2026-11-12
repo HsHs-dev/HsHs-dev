@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/beaver.svg" width="96" alt="My little forest beaver" />
+</p>
+
 <h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
 
 <p align="center">
