@@ -1,4 +1,4 @@
-<h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
+    <h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
 
 <p align="center">
   <a href="https://github.com/HsHs-dev">
@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="#projects">Projects</a> ·
+  <a href="#my-learning-journey">Journey</a> ·
   <a href="#technologies">Technologies</a> ·
   <a href="#on-my-workbench">Workbench</a> ·
   <a href="#github-activity">Activity</a> ·
@@ -59,6 +60,121 @@ A selection of applications, systems, and experiments I've built while learning 
   <br>
   <sub>A little 3D projection experiment, written in Lua.</sub>
 </p>
+
+---
+
+---
+
+## My Learning Journey
+
+A self-directed journey through computer science — from writing my first programs to understanding the systems beneath them.
+
+### 🧭 My guiding resources
+
+Much of my computer science education has been inspired and guided by two exceptional resources:
+
+<table>
+  <tr>
+    <td width="50%">
+      <strong>📚 <a href="https://teachyourselfcs.com/">Teach Yourself CS</a></strong>
+      <br><br>
+      My compass for understanding what truly matters in computer science. It has shaped my belief in learning the fundamentals before the abstractions, and in pursuing knowledge that outlasts any particular technology.
+    </td>
+    <td width="50%">
+      <strong>🎓 <a href="https://csdiy.wiki/en/">CS DIY</a></strong>
+      <br><br>
+      An invaluable collection of university courses, textbooks, and hands-on learning resources. It has helped me navigate the vast landscape of computer science and discover some of the best educational material available.
+    </td>
+  </tr>
+</table>
+
+I'm deeply grateful to the people behind these resources for making high-quality computer science education accessible to anyone with curiosity and the willingness to learn.
+
+### The path so far
+
+```mermaid
+flowchart TD
+    TCS["📚 <a href='https://teachyourselfcs.com/'>Teach Yourself CS ↗</a>"]
+    DIY["🎓 <a href='https://csdiy.wiki/en/'>CS DIY ↗</a>"]
+
+    TCS -.-> START(("🌱 Start"))
+    DIY -.-> START
+
+    START --> JAVA["☕ Programming<br/>Java · Y. Daniel Liang"]
+
+    JAVA --> DSA["🧩 Data Structures & Algorithms<br/><a href='https://github.com/HsHs-dev/UCB-CS61B'>UC Berkeley CS61B ↗</a>"]
+
+    DSA --> ARCH["⚙️ Computer Architecture<br/><a href='https://github.com/HsHs-dev/UCB-CS61C'>UC Berkeley CS61C ↗</a>"]
+
+    JAVA -.- SE["Software Construction<br/><a href='https://github.com/HsHs-dev/MIT-Software-Construction-6.031'>MIT 6.031 ↗</a>"]
+
+    DSA -.- ALG["Algorithms, Part I<br/><a href='https://github.com/HsHs-dev/Algorithms'>Princeton University ↗</a>"]
+
+    ARCH --> SYSTEMS["🔧 Systems Programming"]
+    ARCH --> WEB["🌐 Web Development"]
+
+    SYSTEMS --> CSAPP["Computer Systems<br/><a href='https://github.com/HsHs-dev/ICS-15-213-2015'>CMU 15-213 · CS:APP ↗</a>"]
+
+    SYSTEMS --> N2T["Hardware & Software<br/><a href='https://github.com/HsHs-dev/From-Nand-to-Tetris'>Nand to Tetris ↗</a>"]
+
+    CSAPP --> LOW["C · C++ · Assembly<br/><a href='https://github.com/HsHs-dev/C-Programming-A-Modern-Approach'>K. N. King ↗</a> · <a href='https://github.com/HsHs-dev/Stanford-CS106L'>Stanford CS106L ↗</a>"]
+
+    N2T --> LOW
+
+    LOW --> SYSP["Built:<br/><a href='https://github.com/HsHs-dev/x86-64-webserver'>x86-64 Web Server ↗</a><br/><a href='https://github.com/HsHs-dev/RISCV-ANN'>RISC-V ANN ↗</a> · <a href='https://github.com/HsHs-dev/UCB-CS61C/tree/main/Project/proj3'>RISC-V CPU ↗</a>"]
+
+    SYSTEMS -.- LINUX["Linux & Infrastructure<br/><a href='https://github.com/HsHs-dev/SysadminDeCal'>Berkeley Sysadmin DeCal ↗</a><br/><a href='https://github.com/HsHs-dev/overthewire-bandit'>OverTheWire Bandit ↗</a>"]
+
+    WEB --> JS["JavaScript<br/><a href='https://eloquentjavascript.net/'>Eloquent JavaScript ↗</a> · <a href='https://github.com/HsHs-dev/javascript30'>JavaScript30 ↗</a>"]
+
+    JS --> UI["Frontend & Mobile UI<br/><a href='https://github.com/HsHs-dev/UW-Madison-CS571'>UW-Madison CS571 ↗</a>"]
+
+    UI --> FSO["Full Stack Open<br/><a href='https://github.com/HsHs-dev/fullstack-open'>University of Helsinki ↗</a>"]
+
+    UI -.- WEBP["Built:<br/><a href='https://github.com/HsHs-dev/react-memory-game'>Memory Sequence ↗</a><br/><a href='https://github.com/HsHs-dev/frontend-mentors-challenges-gallery'>Frontend Mentor ↗</a> · <a href='https://github.com/HsHs-dev/pomocode'>Pomocode ↗</a>"]
+
+    FSO --> NOW["📍 YOU ARE HERE<br/><a href='https://github.com/HsHs-dev/Typescript-Full-Stack-Open'>TypeScript ↗</a> · Node.js · Express<br/>MongoDB · Building Quoll"]
+
+    SYSP -.-> NEXT["Beyond the abstractions<br/>Operating Systems · Networking"]
+    NOW -.-> NEXT
+
+    NEXT -.-> FUTURE["✦ Keep exploring<br/>Compilers · Databases<br/>Computing & Medicine"]
+
+    classDef guide fill:#302B44,stroke:#C4B5FD,color:#E9DDFF,stroke-width:1.5px,stroke-dasharray:4 4
+    classDef start fill:#193B36,stroke:#56D8BE,color:#E6FFF8,stroke-width:2px
+    classDef core fill:#263748,stroke:#79B8FF,color:#E6F1FF,stroke-width:1.5px
+    classDef systems fill:#342E45,stroke:#C4B5FD,color:#F0E7FF
+    classDef web fill:#203D46,stroke:#79DDEB,color:#E0FAFF
+    classDef extra fill:#252B35,stroke:#8B949E,color:#C9D1D9,stroke-dasharray:4 4
+    classDef current fill:#244B39,stroke:#7EE787,color:#E0FFE5,stroke-width:3px
+    classDef future fill:#29283C,stroke:#A78BFA,color:#E9DDFF,stroke-dasharray:5 5
+
+    class TCS,DIY guide
+    class START start
+    class JAVA,DSA,ARCH core
+    class SYSTEMS,CSAPP,N2T,LOW,SYSP systems
+    class WEB,JS,UI,FSO,WEBP web
+    class SE,ALG,LINUX extra
+    class NOW current
+    class NEXT,FUTURE future
+```
+
+<sub>A map of my learning, not a finished checklist. Some paths overlap, some are still being explored, and there is always more to discover.</sub>
+
+### 📖 Explore my coursework
+
+| Area                             | Resources & repositories                                                                                                                                         |
+| :------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Programming foundations**      | Java by Y. Daniel Liang                                                                                                                                          |
+| **Data structures & algorithms** | [Berkeley CS61B](https://github.com/HsHs-dev/UCB-CS61B) · [Princeton Algorithms](https://github.com/HsHs-dev/Algorithms)                                         |
+| **Software engineering**         | [MIT 6.031](https://github.com/HsHs-dev/MIT-Software-Construction-6.031)                                                                                         |
+| **Computer architecture**        | [Berkeley CS61C](https://github.com/HsHs-dev/UCB-CS61C) · [Nand to Tetris](https://github.com/HsHs-dev/From-Nand-to-Tetris)                                      |
+| **Computer systems**             | [CMU 15-213 / CS:APP](https://github.com/HsHs-dev/ICS-15-213-2015)                                                                                               |
+| **C & C++**                      | [C Programming: A Modern Approach](https://github.com/HsHs-dev/C-Programming-A-Modern-Approach) · [Stanford CS106L](https://github.com/HsHs-dev/Stanford-CS106L) |
+| **Linux & infrastructure**       | [Sysadmin DeCal](https://github.com/HsHs-dev/SysadminDeCal) · [OverTheWire Bandit](https://github.com/HsHs-dev/overthewire-bandit)                               |
+| **JavaScript**                   | [Eloquent JavaScript](https://eloquentjavascript.net/) · [JavaScript30](https://github.com/HsHs-dev/javascript30)                                                |
+| **Frontend & mobile**            | [UW-Madison CS571](https://github.com/HsHs-dev/UW-Madison-CS571)                                                                                                 |
+| **Full-stack development**       | [Full Stack Open](https://github.com/HsHs-dev/fullstack-open) · [TypeScript](https://github.com/HsHs-dev/Typescript-Full-Stack-Open)                             |
 
 ---
 
