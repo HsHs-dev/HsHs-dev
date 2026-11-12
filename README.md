@@ -92,56 +92,73 @@ I'm deeply grateful to the people behind these resources for making high-quality
 
 ```mermaid
 flowchart TD
-    TCS["📚 <a href='https://teachyourselfcs.com/'>Teach Yourself CS ↗</a>"]
-    DIY["🎓 <a href='https://csdiy.wiki/en/'>CS DIY ↗</a>"]
+    TCS["📚 Teach Yourself CS"]
+    DIY["🎓 CS DIY"]
 
     TCS -.-> START(("🌱 Start"))
     DIY -.-> START
 
     START --> JAVA["☕ Programming<br/>Java · Y. Daniel Liang"]
 
-    JAVA --> DSA["🧩 Data Structures & Algorithms<br/><a href='https://github.com/HsHs-dev/UCB-CS61B'>UC Berkeley CS61B ↗</a>"]
+    JAVA --> DSA["🧩 Data Structures & Algorithms<br/>UC Berkeley CS61B"]
+    DSA --> ARCH["⚙️ Computer Architecture<br/>UC Berkeley CS61C"]
 
-    DSA --> ARCH["⚙️ Computer Architecture<br/><a href='https://github.com/HsHs-dev/UCB-CS61C'>UC Berkeley CS61C ↗</a>"]
-
-    JAVA -.- SE["Software Construction<br/><a href='https://github.com/HsHs-dev/MIT-Software-Construction-6.031'>MIT 6.031 ↗</a>"]
-
-    DSA -.- ALG["Algorithms, Part I<br/><a href='https://github.com/HsHs-dev/Algorithms'>Princeton University ↗</a>"]
+    JAVA -.- SE["Software Construction<br/>MIT 6.031"]
+    DSA -.- ALG["Algorithms, Part I<br/>Princeton University"]
 
     ARCH --> SYSTEMS["🔧 Systems Programming"]
     ARCH --> WEB["🌐 Web Development"]
 
-    SYSTEMS --> CSAPP["Computer Systems<br/><a href='https://github.com/HsHs-dev/ICS-15-213-2015'>CMU 15-213 · CS:APP ↗</a>"]
+    SYSTEMS --> CSAPP["Computer Systems<br/>CMU 15-213 · CS:APP"]
+    SYSTEMS --> N2T["Hardware & Software<br/>Nand to Tetris"]
 
-    SYSTEMS --> N2T["Hardware & Software<br/><a href='https://github.com/HsHs-dev/From-Nand-to-Tetris'>Nand to Tetris ↗</a>"]
-
-    CSAPP --> LOW["C · C++ · Assembly<br/><a href='https://github.com/HsHs-dev/C-Programming-A-Modern-Approach'>K. N. King ↗</a> · <a href='https://github.com/HsHs-dev/Stanford-CS106L'>Stanford CS106L ↗</a>"]
-
+    CSAPP --> LOW["C · C++ · Assembly<br/>K. N. King · Stanford CS106L"]
     N2T --> LOW
 
-    LOW --> SYSP["Built:<br/><a href='https://github.com/HsHs-dev/x86-64-webserver'>x86-64 Web Server ↗</a><br/><a href='https://github.com/HsHs-dev/RISCV-ANN'>RISC-V ANN ↗</a> · <a href='https://github.com/HsHs-dev/UCB-CS61C/tree/main/Project/proj3'>RISC-V CPU ↗</a>"]
+    LOW --> SYSP["Built:<br/>x86-64 Web Server<br/>RISC-V ANN · RISC-V CPU"]
 
-    SYSTEMS -.- LINUX["Linux & Infrastructure<br/><a href='https://github.com/HsHs-dev/SysadminDeCal'>Berkeley Sysadmin DeCal ↗</a><br/><a href='https://github.com/HsHs-dev/overthewire-bandit'>OverTheWire Bandit ↗</a>"]
+    SYSTEMS -.- LINUX["Linux & Infrastructure<br/>Berkeley Sysadmin DeCal<br/>OverTheWire Bandit"]
+    LINUX --> SECURITY["🔐 Computer Security<br/>pwn.college"]
 
-    LINUX --> SECURITY["🔐 Computer Security<br/><a href='https://pwn.college/hacker/hshs-dev'>pwn.college ↗</a>"]
+    WEB --> JS["JavaScript<br/>Eloquent JavaScript · JavaScript30"]
+    JS --> UI["Frontend & Mobile UI<br/>UW-Madison CS571"]
+    UI --> FSO["Full Stack Open<br/>University of Helsinki"]
 
-    click SECURITY "https://pwn.college/hacker/hshs-dev" "Explore my pwn.college profile" _blank
+    UI -.- WEBP["Built:<br/>Memory Sequence<br/>Frontend Mentor · Pomocode"]
 
-    WEB --> JS["JavaScript<br/><a href='https://eloquentjavascript.net/'>Eloquent JavaScript ↗</a> · <a href='https://github.com/HsHs-dev/javascript30'>JavaScript30 ↗</a>"]
-
-    JS --> UI["Frontend & Mobile UI<br/><a href='https://github.com/HsHs-dev/UW-Madison-CS571'>UW-Madison CS571 ↗</a>"]
-
-    UI --> FSO["Full Stack Open<br/><a href='https://github.com/HsHs-dev/fullstack-open'>University of Helsinki ↗</a>"]
-
-    UI -.- WEBP["Built:<br/><a href='https://github.com/HsHs-dev/react-memory-game'>Memory Sequence ↗</a><br/><a href='https://github.com/HsHs-dev/frontend-mentors-challenges-gallery'>Frontend Mentor ↗</a> · <a href='https://github.com/HsHs-dev/pomocode'>Pomocode ↗</a>"]
-
-    FSO --> NOW["📍 I AM HERE<br/><a href='https://github.com/HsHs-dev/Typescript-Full-Stack-Open'>TypeScript ↗</a> · Node.js · Express<br/>MongoDB · Building Quoll"]
+    FSO --> NOW["📍 I AM HERE<br/>TypeScript · Node.js · Express<br/>MongoDB · Building Quoll"]
 
     SYSP -.-> NEXT["2027 UPCOMING: Beyond the abstractions<br/>Operating Systems · Networking"]
     NOW -.-> NEXT
 
     NEXT -.-> FUTURE["✦ Keep exploring<br/>Compilers · Databases<br/>Computing & Medicine"]
 
+    %% Clickable nodes
+    click TCS "https://teachyourselfcs.com/" "Explore Teach Yourself CS" _blank
+    click DIY "https://csdiy.wiki/en/" "Explore CS DIY" _blank
+
+    click JAVA "https://github.com/HsHs-dev/java-hangman" "A small Java project from my early programming journey" _blank
+    click DSA "https://github.com/HsHs-dev/UCB-CS61B" "View my CS61B coursework" _blank
+    click ARCH "https://github.com/HsHs-dev/UCB-CS61C" "View my CS61C coursework" _blank
+    click SE "https://github.com/HsHs-dev/MIT-Software-Construction-6.031" "View my MIT 6.031 coursework" _blank
+    click ALG "https://github.com/HsHs-dev/Algorithms" "View my Princeton Algorithms coursework" _blank
+
+    click SYSTEMS "https://github.com/HsHs-dev/x86-64-webserver" "Explore my systems programming work" _blank
+    click CSAPP "https://github.com/HsHs-dev/ICS-15-213-2015" "View my CS:APP coursework" _blank
+    click N2T "https://github.com/HsHs-dev/From-Nand-to-Tetris" "View my Nand to Tetris work" _blank
+    click LOW "https://github.com/HsHs-dev/Stanford-CS106L" "View my C/C++ learning path" _blank
+    click SYSP "https://github.com/HsHs-dev/x86-64-webserver" "Explore my systems projects" _blank
+    click LINUX "https://github.com/HsHs-dev/SysadminDeCal" "View my Linux & infrastructure coursework" _blank
+    click SECURITY "https://pwn.college/hacker/hshs-dev" "Explore my pwn.college profile" _blank
+
+    click WEB "https://github.com/HsHs-dev/UW-Madison-CS571" "Explore my web development learning" _blank
+    click JS "https://github.com/HsHs-dev/javascript30" "View my JavaScript practice" _blank
+    click UI "https://github.com/HsHs-dev/UW-Madison-CS571" "View my frontend coursework" _blank
+    click FSO "https://github.com/HsHs-dev/fullstack-open" "View my Full Stack Open coursework" _blank
+    click WEBP "https://github.com/HsHs-dev/react-memory-game" "Explore my web projects" _blank
+    click NOW "https://github.com/HsHs-dev/Typescript-Full-Stack-Open" "See where I am now" _blank
+
+    %% Styles
     classDef guide fill:#302B44,stroke:#C4B5FD,color:#E9DDFF,stroke-width:1.5px,stroke-dasharray:4 4
     classDef start fill:#193B36,stroke:#56D8BE,color:#E6FFF8,stroke-width:2px
     classDef core fill:#263748,stroke:#79B8FF,color:#E6F1FF,stroke-width:1.5px
