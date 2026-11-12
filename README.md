@@ -133,9 +133,9 @@ flowchart TD
 
     UI -.- WEBP["Built:<br/><a href='https://github.com/HsHs-dev/react-memory-game'>Memory Sequence ↗</a><br/><a href='https://github.com/HsHs-dev/frontend-mentors-challenges-gallery'>Frontend Mentor ↗</a> · <a href='https://github.com/HsHs-dev/pomocode'>Pomocode ↗</a>"]
 
-    FSO --> NOW["📍 YOU ARE HERE<br/><a href='https://github.com/HsHs-dev/Typescript-Full-Stack-Open'>TypeScript ↗</a> · Node.js · Express<br/>MongoDB · Building Quoll"]
+    FSO --> NOW["📍 I AM HERE<br/><a href='https://github.com/HsHs-dev/Typescript-Full-Stack-Open'>TypeScript ↗</a> · Node.js · Express<br/>MongoDB · Building Quoll"]
 
-    SYSP -.-> NEXT["Beyond the abstractions<br/>Operating Systems · Networking"]
+    SYSP -.-> NEXT["2027 UPCOMING: Beyond the abstractions<br/>Operating Systems · Networking"]
     NOW -.-> NEXT
 
     NEXT -.-> FUTURE["✦ Keep exploring<br/>Compilers · Databases<br/>Computing & Medicine"]
