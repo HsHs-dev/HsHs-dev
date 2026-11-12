@@ -1,30 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 82" width="246" height="82" role="img" aria-labelledby="title desc">
-<title id="title">pwn.college</title><desc id="desc">EXPLORE SECURITY. My hacker profile.</desc>
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#552B83"/><stop offset="1" stop-color="#963FA4"/></linearGradient>
- <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".23"/><stop offset="1" stop-color="#fff" stop-opacity=".02"/></linearGradient>
- <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBCFE8" stop-opacity=".95"/><stop offset=".75" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
- <clipPath id="clip"><rect x="1" y="1" width="244" height="80" rx="16"/></clipPath>
-</defs>
-<rect x="1" y="1" width="244" height="80" rx="16" fill="url(#bg)"/>
-<g clip-path="url(#clip)">
- <circle cx="239" cy="-4" r="66" fill="none" stroke="#fff" stroke-opacity=".14"/>
- <circle cx="239" cy="-4" r="47" fill="none" stroke="#fff" stroke-opacity=".18"/>
- <circle cx="239" cy="-4" r="27" fill="none" stroke="#fff" stroke-opacity=".14"/>
- <path d="M164 81L246 2M185 81L246 23" stroke="#fff" stroke-opacity=".12"/>
- <rect x="1" y="1" width="244" height="38" rx="16" fill="url(#glass)" opacity=".52"/>
- <path d="M20 1H191" stroke="url(#line)" stroke-width="2.4" stroke-linecap="round"/>
- <circle cx="187" cy="67" r="2.3" fill="#FBCFE8" opacity=".92"/><circle cx="196" cy="67" r="1.3" fill="#fff" opacity=".45"/>
-</g>
-<rect x="1" y="1" width="244" height="80" rx="16" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="1.2"/>
-<rect x="12" y="13" width="54" height="55" rx="13" fill="#220B3A" fill-opacity=".18" stroke="#fff" stroke-opacity=".32"/>
-<rect x="15" y="16" width="48" height="48" rx="11" fill="#fff" fill-opacity=".09"/>
-<g fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
- <path d="M39 25l14 6v10c0 10-8 15-14 18-6-3-14-8-14-18V31z"/>
- <path d="M33 36l5 5-5 5m8 0h6" stroke="#FBCFE8"/>
-</g>
-<text x="79" y="24" font-family="Arial, DejaVu Sans, sans-serif" font-size="9.2" font-weight="700" letter-spacing=".8" fill="#FBCFE8">EXPLORE SECURITY</text>
-<text x="79" y="45.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="19.2" font-weight="700" fill="#fff">pwn.college</text>
-<text x="79" y="62.5" font-family="Arial, DejaVu Sans, sans-serif" font-size="10.8" fill="#fff" opacity=".83">My hacker profile</text>
-<g transform="translate(219 40)"><circle r="13.2" fill="#fff" fill-opacity=".16" stroke="#fff" stroke-opacity=".36" stroke-width=".8"/><path d="M-4 3L4 -5M-2 -5H4V1" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="306" height="42" viewBox="0 0 306 42" role="img" aria-labelledby="title">
+  <title id="title">pwn.college — My hacking journey</title>
+  <rect x=".5" y=".5" width="305" height="41" rx="8" fill="#222831" stroke="#00a3e0" stroke-opacity=".9"/>
+  <g transform="translate(12 10)" fill="none" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h19v16H2z" stroke="#00a3e0"/><path d="M6 8l4 3-4 3" stroke="#ffb200"/><path d="M13 14h4" stroke="#78be20"/></g>
+  <text x="46" y="26" font-family="Arial, DejaVu Sans, sans-serif" font-size="12.5" fill="#FFFFFF"><tspan font-weight="700">pwn.college</tspan><tspan fill="#FFFFFF" opacity=".95"> · My hacking journey</tspan></text>
 </svg>

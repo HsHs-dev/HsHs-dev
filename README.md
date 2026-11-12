@@ -286,19 +286,21 @@ flowchart TD
 
 ## Elsewhere
 
+## Elsewhere
+
 <p align="center">
   <a href="https://hshs-dev.github.io/cs2day/">
-    <img src="./assets/contact-cs2day.svg" width="246" alt="Read CS2Day blog">
+    <img src="./assets/contact-cs2day.svg" width="306" alt="CS2Day — Notes from the lab" />
   </a>
   <a href="https://www.linkedin.com/in/hshsdev/">
-    <img src="./assets/contact-linkedin.svg" width="246" alt="Connect on LinkedIn">
+    <img src="./assets/contact-linkedin.svg" width="306" alt="LinkedIn — Let's connect" />
   </a>
   <br>
   <a href="https://x.com/Hshs_dev">
-    <img src="./assets/contact-x.svg" width="246" alt="Follow on X">
+    <img src="./assets/contact-x.svg" width="306" alt="X — Where I yap about stuff" />
   </a>
   <a href="https://pwn.college/hacker/hshs-dev">
-    <img src="./assets/contact-pwncollege.svg" width="246" alt="Explore my pwn.college security profile">
+    <img src="./assets/contact-pwncollege.svg" width="306" alt="pwn.college — My hacking journey" />
   </a>
 </p>
 
