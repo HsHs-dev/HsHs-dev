@@ -1,9 +1,8 @@
-# Generate profile statistics (the animated workbench SVG is a standalone local asset).
 name: Refresh profile cards
 
 on:
   schedule:
-    - cron: "17 3 * * *"
+    - cron: "17 3 * * *" # Daily at 6:17 AM Saudi time
   workflow_dispatch:
 
 permissions:
@@ -16,9 +15,10 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Refresh contribution and overview cards
         uses: seijikohara/profile-cards-action@v1
