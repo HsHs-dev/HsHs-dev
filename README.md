@@ -1,4 +1,4 @@
-    <h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
+<h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
 
 <p align="center">
   <a href="https://github.com/HsHs-dev">
