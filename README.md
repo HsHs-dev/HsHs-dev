@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/pixel-mascot-smooth.svg" width="96" alt="My bald headed mascot" />
+  <img src="./assets/pixel-mascot-smooth.svg" width="196" height="192" alt="My bald headed mascot" />
 </p>
 
 <h1 align="center">Hassan <img src="./assets/spark.svg" width="34" height="34" alt="" /></h1>
