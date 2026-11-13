@@ -48,12 +48,12 @@ A selection of applications, systems, and experiments I've built while learning 
 
 ### 🌐 Applications & full-stack development
 
-| Project                                                                                                                                                                                                           | Under the hood                                                                                                      |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ |
-| **[Memory Sequence](https://hshs-dev.github.io/react-memory-game/)** · [Source](https://github.com/HsHs-dev/react-memory-game <br> <sub>React · Tailwind · Motion</sub>                                           | Interactive memory game with a finite-state game loop, Web Audio effects, and an online leaderboard.                |
-| **[Phonebook](https://github.com/HsHs-dev/phonebook-app)** · [Demo](https://phonebook-app-05ao.onrender.com/ <br> <sub>Node.js · Express · MongoDB</sub>                                                          | Deployed full-stack exercise featuring a REST API, document persistence, and a served frontend.                     |
-| **[Brutal Tomato](https://brutal-tomato.netlify.app/)** · [Source](https://github.com/HsHs-dev/brutal-tomato <br> <sub>React · Tailwind</sub>                                                                     | Neobrutalist Pomodoro interface focused on responsive design, accessibility, and visual identity. Static prototype. |
-| **[Frontend Mentor Gallery](https://hshs-dev.github.io/frontend-mentors-challenges-gallery/)** · [Source](https://github.com/HsHs-dev/frontend-mentors-challenges-gallery <br> <sub>HTML · CSS · JavaScript</sub> | Collection of design-to-code challenges exploring responsive layouts and frontend fundamentals.                     |
+| Project                                                                                                                                                                                                            | Under the hood                                                                                                      |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ |
+| **[Memory Sequence](https://hshs-dev.github.io/react-memory-game/)** · [Source](https://github.com/HsHs-dev/react-memory-game) <br> <sub>React · Tailwind · Motion</sub>                                           | Interactive memory game with a finite-state game loop, Web Audio effects, and an online leaderboard.                |
+| **[Phonebook](https://github.com/HsHs-dev/phonebook-app)** · [Demo](https://phonebook-app-05ao.onrender.com/) <br> <sub>Node.js · Express · MongoDB</sub>                                                          | Deployed full-stack exercise featuring a REST API, document persistence, and a served frontend.                     |
+| **[Brutal Tomato](https://brutal-tomato.netlify.app/)** · [Source](https://github.com/HsHs-dev/brutal-tomato) <br> <sub>React · Tailwind</sub>                                                                     | Neobrutalist Pomodoro interface focused on responsive design, accessibility, and visual identity. Static prototype. |
+| **[Frontend Mentor Gallery](https://hshs-dev.github.io/frontend-mentors-challenges-gallery/)** · [Source](https://github.com/HsHs-dev/frontend-mentors-challenges-gallery) <br> <sub>HTML · CSS · JavaScript</sub> | Collection of design-to-code challenges exploring responsive layouts and frontend fundamentals.                     |
 
 ### 🛠️ Developer tools & experiments
 
@@ -194,19 +194,19 @@ flowchart TD
 
 ### 📖 Explore my coursework
 
-| Area                             | Resources & repositories                                                                                                                                       |
-| :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Programming foundations**      | Java by Y. Daniel Liang                                                                                                                                        |
-| **Data structures & algorithms** | [Berkeley CS61B](https://github.com/HsHs-dev/UCB-CS61B · [Princeton Algorithms](https://github.com/HsHs-dev/Algorithms                                         |
-| **Software engineering**         | [MIT 6.031](https://github.com/HsHs-dev/MIT-Software-Construction-6.031                                                                                        |
-| **Computer architecture**        | [Berkeley CS61C](https://github.com/HsHs-dev/UCB-CS61C · [Nand to Tetris](https://github.com/HsHs-dev/From-Nand-to-Tetris                                      |
-| **Computer systems**             | [CMU 15-213 / CS:APP](https://github.com/HsHs-dev/ICS-15-213-2015                                                                                              |
-| **C & C++**                      | [C Programming: A Modern Approach](https://github.com/HsHs-dev/C-Programming-A-Modern-Approach · [Stanford CS106L](https://github.com/HsHs-dev/Stanford-CS106L |
-| **Linux & infrastructure**       | [Sysadmin DeCal](https://github.com/HsHs-dev/SysadminDeCal · [OverTheWire Bandit](https://github.com/HsHs-dev/overthewire-bandit                               |
-| **Computer security**            | [pwn.college — My hacker profile](https://pwn.college/hacker/hshs-dev)                                                                                         |
-| **JavaScript**                   | [Eloquent JavaScript](https://eloquentjavascript.net/ · [JavaScript30](https://github.com/HsHs-dev/javascript30                                                |
-| **Frontend & mobile**            | [UW-Madison CS571](https://github.com/HsHs-dev/UW-Madison-CS571                                                                                                |
-| **Full-stack development**       | [Full Stack Open](https://github.com/HsHs-dev/fullstack-open · [TypeScript](https://github.com/HsHs-dev/Typescript-Full-Stack-Open                             |
+| Area                             | Resources & repositories                                                                                                                                         |
+| :------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Programming foundations**      | Java by Y. Daniel Liang                                                                                                                                          |
+| **Data structures & algorithms** | [Berkeley CS61B](https://github.com/HsHs-dev/UCB-CS61B) · [Princeton Algorithms](https://github.com/HsHs-dev/Algorithms)                                         |
+| **Software engineering**         | [MIT 6.031](https://github.com/HsHs-dev/MIT-Software-Construction-6.031)                                                                                         |
+| **Computer architecture**        | [Berkeley CS61C](https://github.com/HsHs-dev/UCB-CS61C) · [Nand to Tetris](https://github.com/HsHs-dev/From-Nand-to-Tetris)                                      |
+| **Computer systems**             | [CMU 15-213 / CS:APP](https://github.com/HsHs-dev/ICS-15-213-2015)                                                                                               |
+| **C & C++**                      | [C Programming: A Modern Approach](https://github.com/HsHs-dev/C-Programming-A-Modern-Approach) · [Stanford CS106L](https://github.com/HsHs-dev/Stanford-CS106L) |
+| **Linux & infrastructure**       | [Sysadmin DeCal](https://github.com/HsHs-dev/SysadminDeCal) · [OverTheWire Bandit](https://github.com/HsHs-dev/overthewire-bandit)                               |
+| **Computer security**            | [pwn.college — My hacker profile](https://pwn.college/hacker/hshs-dev)                                                                                           |
+| **JavaScript**                   | [Eloquent JavaScript](https://eloquentjavascript.net/) · [JavaScript30](https://github.com/HsHs-dev/javascript30)                                                |
+| **Frontend & mobile**            | [UW-Madison CS571](https://github.com/HsHs-dev/UW-Madison-CS571)                                                                                                 |
+| **Full-stack development**       | [Full Stack Open](https://github.com/HsHs-dev/fullstack-open) · [TypeScript](https://github.com/HsHs-dev/Typescript-Full-Stack-Open)                             |
 
 ---
 
@@ -269,7 +269,7 @@ flowchart TD
 <img align="right" src="./assets/workbench-scene.svg" width="174" alt="Animated workstation with a coding monitor, coffee, and a plant" />
 
 - **Building:** Quoll — a cross-platform desktop app exploring the features of `yt-dlp` (early prototype).
-- **Learning:** TypeScript and full-stack development through [Full Stack Open](https://github.com/HsHs-dev/Typescript-Full-Stack-Open.
+- **Learning:** TypeScript and full-stack development through [Full Stack Open](https://github.com/HsHs-dev/Typescript-Full-Stack-Open).
 - **Exploring:** Operating systems, computer architecture, and low-level programming.
 
 ---
