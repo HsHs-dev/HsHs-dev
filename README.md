@@ -11,6 +11,12 @@
 </p>
 
 <p align="center">
+  <a href="https://hshsdev.pages.dev">
+    <strong>🌐 My Personal Website</strong>
+  </a>
+</p>
+
+<p align="center">
   <a href="#projects">Projects</a> ·
   <a href="#my-learning-journey">Journey</a> ·
   <a href="#technologies">Technologies</a> ·
